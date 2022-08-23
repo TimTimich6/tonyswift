@@ -43,7 +43,7 @@ function Rooms() {
             setSearch(text)
         }
     }
-    //handle likes
+
     const handleLike = (id) => {
         {rooms.map(room => {
             if (room.id == id) {
@@ -55,6 +55,7 @@ function Rooms() {
 
     return (
         <View style={styles.container}>
+            {/* header here */}
             <View style={styles.header}>
                 <View style={styles.leftHeader}>
                     <MaterialIcons
