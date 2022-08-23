@@ -30,6 +30,7 @@ function Rooms() {
       .finally(() => setLoading(false));
   };
   // test commet
+  //comment 2
   const searchFilter = (text) => {
     if (text) {
       const newData = rooms.filter((item) => {
