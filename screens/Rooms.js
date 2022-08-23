@@ -9,8 +9,8 @@ import colors from '../config/colors'
 
 function Rooms() {
     const [isLoading, setLoading] = useState(true);
-    const [rooms, setRooms] = useState();
-    const [filteredRooms, setFilteredRooms] = useState();
+    const [rooms, setRooms] = useState([]);
+    const [filteredRooms, setFilteredRooms] = useState([]);
     const [search, setSearch] = useState('');
 
     useEffect(() => {
